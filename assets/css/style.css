@@ -116,7 +116,7 @@ a {
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 0.01em;
-    color: #687691;
+    color: #687690;
 }
 
 .hero .title {
@@ -175,6 +175,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 /* ==========Guides========== */
@@ -623,6 +624,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #f9f9f9;
 }
 
 .footer .social-link:hover {
