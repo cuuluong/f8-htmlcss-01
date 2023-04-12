@@ -57,7 +57,8 @@ a {
 /* ===========Header============*/
 .header {
     background: #e6f0ff;
-    height: 100vh;
+    height: 736px;
+    position: relative;
 }
 
 /* Navigtion */
@@ -104,6 +105,7 @@ a {
 /*    hero   */
 .hero {
     margin-top: 130px;
+    display: flex;
 }
 
 .hero .info {
