@@ -115,12 +115,11 @@ a {
 /*    hero   */
 .hero-parent {
     position: relative;
-    padding-top: 130px;
-    background: #e6f0ff;
-}
-.hero {
     display: flex;
-    height: 619px;
+    flex-direction: column;
+    justify-content: center;
+    background: #e6f0ff;
+    height: calc(100vh - 90px);
 }
 
 .hero .info {
