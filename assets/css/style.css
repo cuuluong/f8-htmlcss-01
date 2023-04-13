@@ -108,13 +108,12 @@ a {
 /*    hero   */
 .hero-parent {
     position: relative;
+    padding-top: 130px;
     background: #e6f0ff;
-    height: 100vh;
 }
 .hero {
     display: flex;
     height: 619px;
-    padding-top: 130px;
 }
 
 .hero .info {
