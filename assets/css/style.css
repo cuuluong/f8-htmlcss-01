@@ -6,6 +6,13 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+    /*cho thuộc tính này vào cả html và body để cho chắc chắn vì có một số trình duyệt sẽ chưa hỗ trợ thuộc tính này
+    trên html,hoặc chỉ hỗ trợ trên body*/
+}
+
 html {
     font-size: 62.5%;
 }
